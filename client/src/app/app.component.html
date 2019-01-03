@@ -1,0 +1,16 @@
+<input type="file" class="upload" (change)="changeListener($event.target.files)">
+
+
+<p><!--{{ account.username }}--></p>
+
+
+<table >
+<th>test</th>
+    <tr *ngFor="let request of Requests">
+<td>{{ request.billingCycle }}</td>
+
+</tr>    
+
+
+
+</table>
